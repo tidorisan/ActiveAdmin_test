@@ -1,0 +1,21 @@
+ja:
+  activerecord:
+    # 使用するモデルの名前[ヘッダーに表示される]
+    models:
+      admin_user: "管理者"
+      comment: "コメント"
+      store: "店舗"
+    attributes:
+      admin_user:
+        id: "登録番号"
+        email: "メールアドレス"
+        current_sign_in_at: "ログイン状態"
+        sign_in_count: "ログイン回数"
+        created_at: "作成日"
+      store:
+        id: "登録番号"
+        store_name: "店舗名"
+        store_explanation: "店舗説明"
+        open_status: "開店閉店状態"
+        created_at: "作成日"
+        updated_at: "更新日"
